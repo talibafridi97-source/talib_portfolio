@@ -87,7 +87,7 @@ class EducationSection extends StatelessWidget {
                           ),
                           const SizedBox(height: 8),
                           const Text(
-                            "Government Post Graduate College (GPGC) Kohat",
+                            "Government Post Graduate College (GPGC) Kohat / KUST University",
                             style: TextStyle(
                               fontSize: 15,
                               fontWeight: FontWeight.w600,
@@ -96,7 +96,7 @@ class EducationSection extends StatelessWidget {
                           ),
                           const SizedBox(height: 12),
                           Text(
-                            "Successfully completed rigorous coursework in Data Structures, Object-Oriented Programming, Database Systems, and Software Engineering. Defended Final Year Project (16-screen Tailor Management System) in May 2026.",
+                            "Successfully completed rigorous coursework in Data Structures, Object-Oriented Programming, Database Systems, and Software Engineering. Degree awarded by Kohat University of Science & Technology (KUST). Defended Final Year Project (16-screen Tailor Management System) in May 2026.",
                             style: Theme.of(context).textTheme.bodyMedium?.copyWith(height: 1.6),
                           ),
                         ],

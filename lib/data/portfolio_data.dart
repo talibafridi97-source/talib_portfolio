@@ -18,7 +18,7 @@ class PortfolioData {
   static const String aboutBio =
       "Full stack developer with 7 projects on GitHub, including a 16-screen Tailor Management System, a food delivery and restaurant management platform with real-time order tracking, and a full-stack JWT authentication app. Strong in Dart, OOP and C++, with experience in REST API development, MongoDB, PostgreSQL (Supabase) and Provider state management.";
 
-  static const String educationInfo = "BS Computer Science, GPGC Kohat, Graduated May 2026";
+  static const String educationInfo = "BS Computer Science, GPGC Kohat (KUST University), Graduated May 2026";
   static const List<String> languages = ["English", "Urdu", "Pashto"];
   static const String workStatus = "Open to full stack developer roles in Islamabad (also open to remote)";
 
