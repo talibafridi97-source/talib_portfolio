@@ -8,6 +8,8 @@ class MoreProjectsSection extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    final isDesktop = MediaQuery.of(context).size.width >= 900;
+
     return Container(
       padding: const EdgeInsets.symmetric(vertical: 80, horizontal: 24),
       child: Center(
@@ -20,28 +22,25 @@ class MoreProjectsSection extends StatelessWidget {
                 subtitle: "Repositories & Utilities",
               ),
               const SizedBox(height: 40),
-              LayoutBuilder(
-                builder: (context, constraints) {
-                  int crossAxisCount = constraints.maxWidth > 900
-                      ? 2
-                      : 1;
-                  return GridView.builder(
-                    shrinkWrap: true,
-                    physics: const NeverScrollableScrollPhysics(),
-                    gridDelegate: SliverGridDelegateWithFixedCrossAxisCount(
-                      crossAxisCount: crossAxisCount,
-                      crossAxisSpacing: 24,
-                      mainAxisSpacing: 24,
-                      childAspectRatio: constraints.maxWidth > 900 ? 1.6 : 1.4,
+              isDesktop
+                  ? Wrap(
+                      spacing: 24,
+                      runSpacing: 24,
+                      children: PortfolioData.moreProjects.map((project) {
+                        return SizedBox(
+                          width: (1200 - 24) / 2,
+                          child: ProjectCard(project: project),
+                        );
+                      }).toList(),
+                    )
+                  : Column(
+                      children: PortfolioData.moreProjects
+                          .map((project) => Padding(
+                                padding: const EdgeInsets.only(bottom: 24.0),
+                                child: ProjectCard(project: project),
+                              ))
+                          .toList(),
                     ),
-                    itemCount: PortfolioData.moreProjects.length,
-                    itemBuilder: (context, index) {
-                      final project = PortfolioData.moreProjects[index];
-                      return ProjectCard(project: project);
-                    },
-                  );
-                },
-              ),
             ],
           ),
         ),

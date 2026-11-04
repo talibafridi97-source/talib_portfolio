@@ -56,6 +56,7 @@ class _ProjectCardState extends State<ProjectCard> {
         padding: const EdgeInsets.all(24),
         child: Column(
           crossAxisAlignment: CrossAxisAlignment.start,
+          mainAxisSize: MainAxisSize.min,
           children: [
             Row(
               mainAxisAlignment: MainAxisAlignment.spaceBetween,
@@ -86,11 +87,9 @@ class _ProjectCardState extends State<ProjectCard> {
               ),
             ),
             const SizedBox(height: 12),
-            Expanded(
-              child: Text(
-                widget.project.description,
-                style: Theme.of(context).textTheme.bodyMedium,
-              ),
+            Text(
+              widget.project.description,
+              style: Theme.of(context).textTheme.bodyMedium,
             ),
             const SizedBox(height: 16),
             Wrap(
