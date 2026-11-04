@@ -83384,7 +83384,7 @@ A.tH.prototype={}
 A.GM.prototype={
 K(a){var s,r,q,p,o,n,m,l,k,j,i,h,g=this,f=null,e=A.bn(a,f,t.w).w,d=A.I(a),c=A.I(a).ok.y
 c=A.bh("Full stack developer with 7 projects on GitHub, including a 16-screen Tailor Management System, a food delivery and restaurant management platform with real-time order tracking, and a full-stack JWT authentication app. Strong in Dart, OOP and C++, with experience in REST API development, MongoDB, PostgreSQL (Supabase) and Provider state management.",f,f,f,c==null?f:c.Sh(16,1.7),f,f)
-s=g.wh(a,B.os,"Education","BS Computer Science, GPGC Kohat, Graduated May 2026")
+s=g.wh(a,B.os,"Education","BS Computer Science, GPGC Kohat (KUST University), Graduated May 2026")
 r=g.wh(a,B.G4,"Location","Islamabad, Pakistan")
 q=g.wh(a,B.kj,"Email","talibafridi97@gmail.com")
 p=g.wh(a,B.or,"Phone / WhatsApp","+92 343 9246597")
@@ -83477,9 +83477,9 @@ $1(a){return new A.jq(a.c,a.a,a.b,null)},
 $S:126}
 A.IH.prototype={
 K(a){var s,r=null,q=A.I(a).ax.a===B.W,p=A.I(a),o=A.bC(20),n=A.hn(q?A.W(20,B.e.m()>>>16&255,B.e.m()>>>8&255,B.e.m()&255):A.W(51,B.ab.m()>>>16&255,B.ab.m()>>>8&255,B.ab.m()&255),1),m=A.c([new A.cj(0,B.b0,A.W(B.c.ap(255*(q?0.3:0.05)),B.l.m()>>>16&255,B.l.m()>>>8&255,B.l.m()&255),B.hL,15)],t.E),l=A.bl(r,B.Fs,B.m,r,r,new A.bx(A.W(31,B.n.m()>>>16&255,B.n.m()>>>8&255,B.n.m()&255),r,r,A.bC(16),r,r,B.Q),r,r,r,r,B.eE,r,r,r),k=A.I(a).ok.r,j=t.p
-k=A.cn(A.c([A.dS(A.bh("BS Computer Science",r,r,r,k==null?r:k.nb(B.T),r,r),1),B.zK,A.bl(r,B.V7,B.m,r,r,new A.bx(A.W(38,B.cL.m()>>>16&255,B.cL.m()>>>8&255,B.cL.m()&255),r,r,A.bC(8),r,r,B.Q),r,r,r,r,B.EX,r,r,r)],j),B.B,B.eZ,B.x,0)
+k=A.cn(A.c([A.dS(A.bh("BS Computer Science",r,r,r,k==null?r:k.nb(B.T),r,r),1),B.zK,A.bl(r,B.V6,B.m,r,r,new A.bx(A.W(38,B.cL.m()>>>16&255,B.cL.m()>>>8&255,B.cL.m()&255),r,r,A.bC(8),r,r,B.Q),r,r,r,r,B.EX,r,r,r)],j),B.B,B.eZ,B.x,0)
 s=A.I(a).ok.z
-return A.bl(r,A.dF(new A.dr(B.Bq,A.c7(A.c([B.O0,B.d6,A.bl(r,A.cn(A.c([l,B.PL,A.dS(A.c7(A.c([k,B.lq,B.V6,B.br,A.bh("Successfully completed rigorous coursework in Data Structures, Object-Oriented Programming, Database Systems, and Software Engineering. Defended Final Year Project (16-screen Tailor Management System) in May 2026.",r,r,r,s==null?r:s.pn(1.6),r,r)],j),B.af,B.w,B.x),1)],j),B.af,B.w,B.x,0),B.m,r,r,new A.bx(p.at,r,n,o,m,r,B.Q),r,r,r,r,B.jE,r,r,r)],j),B.B,B.w,B.x),r),r,r),B.m,r,r,r,r,r,r,r,B.dw,r,r,r)}}
+return A.bl(r,A.dF(new A.dr(B.Bq,A.c7(A.c([B.O0,B.d6,A.bl(r,A.cn(A.c([l,B.PL,A.dS(A.c7(A.c([k,B.lq,B.V8,B.br,A.bh("Successfully completed rigorous coursework in Data Structures, Object-Oriented Programming, Database Systems, and Software Engineering. Degree awarded by Kohat University of Science & Technology (KUST). Defended Final Year Project (16-screen Tailor Management System) in May 2026.",r,r,r,s==null?r:s.pn(1.6),r,r)],j),B.af,B.w,B.x),1)],j),B.af,B.w,B.x,0),B.m,r,r,new A.bx(p.at,r,n,o,m,r,B.Q),r,r,r,r,B.jE,r,r,r)],j),B.B,B.w,B.x),r),r,r),B.m,r,r,r,r,r,r,r,B.dw,r,r,r)}}
 A.IS.prototype={
 K(a){var s=null,r=A.c([B.O_,B.e2],t.p),q=$.atb()
 B.b.W(r,new A.yy(q,A.Y(q).i("yy<1>")).ghF().fI(0,new A.a0D(),t.l7))
@@ -83616,7 +83616,7 @@ A.a2U.prototype={
 $0(){return A.jb(this.a,!1).en()},
 $S:0}
 A.Km.prototype={
-K(a){var s=this,r=null,q=A.L5(a,!0,t.eC),p=q.a===B.d8,o=p?B.by:B.e,n=t.p,m=A.c7(A.c([A.bh("Talib Nawaz",r,r,r,B.S6,r,r),B.lp,B.V8],n),B.af,B.kH,B.x),l=A.yA(!1,r,r,r,!0,r,r,!0,r,B.ov,r,new A.a6Y(s,a),!1,r,r,r,r,r,B.Vj,r,r),k=A.yA(!1,r,r,r,!0,r,r,!0,r,B.Gf,r,new A.a6Z(s,a),!1,r,r,r,r,r,B.Vl,r,r),j=A.yA(!1,r,r,r,!0,r,r,!0,r,B.Gr,r,new A.a7_(s,a),!1,r,r,r,r,r,B.Ve,r,r),i=A.yA(!1,r,r,r,!0,r,r,!0,r,B.Gh,r,new A.a70(s,a),!1,r,r,r,r,r,B.Va,r,r),h=A.yA(!1,r,r,r,!0,r,r,!0,r,B.ow,r,new A.a71(s,a),!1,r,r,r,r,r,B.Vi,r,r),g=A.JE(p?B.kk:B.ki,r,r,B.n,r,r,r,r,r,r,r,r,r,r)
+K(a){var s=this,r=null,q=A.L5(a,!0,t.eC),p=q.a===B.d8,o=p?B.by:B.e,n=t.p,m=A.c7(A.c([A.bh("Talib Nawaz",r,r,r,B.S6,r,r),B.lp,B.V7],n),B.af,B.kH,B.x),l=A.yA(!1,r,r,r,!0,r,r,!0,r,B.ov,r,new A.a6Y(s,a),!1,r,r,r,r,r,B.Vj,r,r),k=A.yA(!1,r,r,r,!0,r,r,!0,r,B.Gf,r,new A.a6Z(s,a),!1,r,r,r,r,r,B.Vl,r,r),j=A.yA(!1,r,r,r,!0,r,r,!0,r,B.Gr,r,new A.a7_(s,a),!1,r,r,r,r,r,B.Ve,r,r),i=A.yA(!1,r,r,r,!0,r,r,!0,r,B.Gh,r,new A.a70(s,a),!1,r,r,r,r,r,B.Va,r,r),h=A.yA(!1,r,r,r,!0,r,r,!0,r,B.ow,r,new A.a71(s,a),!1,r,r,r,r,r,B.Vi,r,r),g=A.JE(p?B.kk:B.ki,r,r,B.n,r,r,r,r,r,r,r,r,r,r)
 n=A.c([new A.IF(new A.bx(r,r,r,r,r,B.ko,B.Q),m,r),l,k,j,i,h,B.Ex,new A.N5(!p,new A.a72(q),A.bh(p?"Light Mode":"Dark Mode",r,r,r,r,r,r),g,r)],n)
 m=A.at([null,0],t.LO,t.S)
 return new A.ID(o,new A.K3(new A.acZ(!0,!0,!0,n,m),B.b6,B.aG,!1,r,r,B.AU,!1,r,8,B.a5,r,r,B.a_,B.ar,r),r)}}
@@ -89808,12 +89808,12 @@ B.V3=new A.dK(B.SP,B.RQ,B.SQ,B.Tk,B.Rt,B.RA,B.S8,B.Ta,B.Sl,B.TR,B.QV,B.Ra,B.TJ,B
 B.TL=new A.j(!0,B.n,null,null,null,null,11,B.S,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null)
 B.V4=new A.d5("Full Stack Dev",null,B.TL,null,null,null,null,null,null)
 B.V5=new A.d5("Hire Me",null,null,null,null,null,null,null,null)
-B.Tu=new A.j(!0,B.n,null,null,null,null,15,B.b7,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null)
-B.V6=new A.d5("Government Post Graduate College (GPGC) Kohat",null,B.Tu,null,null,null,null,null,null)
 B.Sn=new A.j(!0,B.cL,null,null,null,null,12,B.T,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null)
-B.V7=new A.d5("Graduated 2026",null,B.Sn,null,null,null,null,null,null)
+B.V6=new A.d5("Graduated 2026",null,B.Sn,null,null,null,null,null,null)
 B.Rn=new A.j(!0,B.K,null,null,null,null,14,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null)
-B.V8=new A.d5("Full Stack Developer",null,B.Rn,null,null,null,null,null,null)
+B.V7=new A.d5("Full Stack Developer",null,B.Rn,null,null,null,null,null,null)
+B.Tu=new A.j(!0,B.n,null,null,null,null,15,B.b7,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null)
+B.V8=new A.d5("Government Post Graduate College (GPGC) Kohat / KUST University",null,B.Tu,null,null,null,null,null,null)
 B.Va=new A.d5("Education",null,null,null,null,null,null,null,null)
 B.Vb=new A.d5("View Projects",null,null,null,null,null,null,null,null)
 B.A9=new A.j(!0,B.nd,null,null,null,null,12,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null)
