@@ -14,14 +14,14 @@ jobs:
       - name: Set up Flutter
         uses: subosito/flutter-action@v2
         with:
-          flutter-version: '3.x'
+          flutter-version: '3.35.6'
           channel: 'stable'
 
       - name: Install Dependencies
         run: flutter pub get
 
       - name: Build Web
-        run: flutter build web --release --base-href "/talib_portfolio/"
+        run: flutter build web --release --no-wasm-dry-run --base-href "/talib_portfolio/"
 
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
