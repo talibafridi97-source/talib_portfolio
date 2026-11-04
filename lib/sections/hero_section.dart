@@ -14,7 +14,6 @@ class HeroSection extends StatelessWidget {
     if (await canLaunchUrl(uri)) {
       await launchUrl(uri, mode: LaunchMode.externalApplication);
     } else {
-      // Fallback or WhatsApp
       final waUri = Uri.parse(PortfolioData.whatsappUrl);
       await launchUrl(waUri, mode: LaunchMode.externalApplication);
     }
@@ -132,23 +131,23 @@ class HeroSection extends StatelessWidget {
           ],
         ),
         const SizedBox(height: 40),
-        // Stats Row
+        // Stats Row (Fully responsive using Expanded)
         Container(
-          padding: const EdgeInsets.all(20),
+          width: double.infinity,
+          padding: const EdgeInsets.symmetric(vertical: 20, horizontal: 12),
           decoration: BoxDecoration(
             color: Theme.of(context).cardColor,
             borderRadius: BorderRadius.circular(16),
             border: Border.all(color: Colors.white.withOpacity(0.08)),
           ),
           child: Row(
-            mainAxisSize: MainAxisSize.min,
             mainAxisAlignment: MainAxisAlignment.spaceAround,
             children: [
-              _statItem("7+", "GitHub Projects"),
+              Expanded(child: _statItem("7+", "GitHub Projects")),
               _divider(),
-              _statItem("16", "Screen Flagship App"),
+              Expanded(child: _statItem("16", "Screen App")),
               _divider(),
-              _statItem("BS CS", "GPGC Kohat '26"),
+              Expanded(child: _statItem("BS CS", "GPGC Kohat")),
             ],
           ),
         ),
@@ -219,25 +218,27 @@ class HeroSection extends StatelessWidget {
   }
 
   Widget _statItem(String value, String label) {
-    return Padding(
-      padding: const EdgeInsets.symmetric(horizontal: 12),
-      child: Column(
-        children: [
-          Text(
-            value,
-            style: const TextStyle(
-              fontSize: 22,
-              fontWeight: FontWeight.bold,
-              color: Color(0xFF3B82F6),
-            ),
+    return Column(
+      mainAxisSize: MainAxisSize.min,
+      children: [
+        Text(
+          value,
+          style: const TextStyle(
+            fontSize: 20,
+            fontWeight: FontWeight.bold,
+            color: Color(0xFF3B82F6),
           ),
-          const SizedBox(height: 4),
-          Text(
-            label,
-            style: const TextStyle(fontSize: 12, color: Colors.white70),
-          ),
-        ],
-      ),
+          textAlign: TextAlign.center,
+        ),
+        const SizedBox(height: 4),
+        Text(
+          label,
+          style: const TextStyle(fontSize: 11, color: Colors.white70),
+          textAlign: TextAlign.center,
+          maxLines: 2,
+          overflow: TextOverflow.ellipsis,
+        ),
+      ],
     );
   }
 
